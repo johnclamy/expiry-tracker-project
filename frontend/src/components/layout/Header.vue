@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import { RouterLink, RouterView } from 'vue-router'
+    import { RouterLink } from 'vue-router'
 </script>
 
 <template>
@@ -34,7 +34,6 @@
                             </li>
                         </ul>
                     </nav>
-                    <RouterView />
                 </section>
                 <!-- Login/ Register section -->
                 <section class="flex items-center gap-4">
