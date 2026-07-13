@@ -1,5 +1,6 @@
 <script setup lang="ts">
     import { RouterLink } from 'vue-router'
+    import pageLink from '../../routes/page-link.ts'
 </script>
 
 <template>
@@ -8,7 +9,7 @@
             <div class="flex h-16 items-center justify-between">
                 <!-- logo section -->
                 <section class="md:flex md:items-center md:gap-12">
-                    <RouterLink class="block text-teal-600" to='/'>
+                    <RouterLink class="block text-teal-600" :to="pageLink.HOME">
                         <span class="sr-only">Home</span>
                         <img class="h-8 w-auto object-contain" src="../../assets/logo.png" alt="logo" />
                     </RouterLink>
@@ -18,19 +19,19 @@
                     <nav aria-label="Global">
                         <ul class="flex items-center gap-6 text-sm">
                             <li>
-                                <RouterLink class="text-gray-500 transition hover:text-gray-500/75" to='/'> Home </RouterLink>
+                                <RouterLink class="text-gray-500 transition hover:text-gray-500/75" :to="pageLink.HOME"> Home </RouterLink>
                             </li>
                             <li>
-                                <RouterLink class="text-gray-500 transition hover:text-gray-500/75" to='/ai-careers'> AI Careers </RouterLink>
+                                <RouterLink class="text-gray-500 transition hover:text-gray-500/75" :to="pageLink.CAREERS"> AI Careers </RouterLink>
                             </li>
                             <li>
-                                <RouterLink class="text-gray-500 transition hover:text-gray-500/75" to='/new-jobs'> New Jobs </RouterLink>
+                                <RouterLink class="text-gray-500 transition hover:text-gray-500/75" :to="pageLink.JOBS"> New Jobs </RouterLink>
                             </li>
                             <li>
-                                <RouterLink class="text-gray-500 transition hover:text-gray-500/75" to='/about'> About </RouterLink>
+                                <RouterLink class="text-gray-500 transition hover:text-gray-500/75" :to="pageLink.ABOUT"> About </RouterLink>
                             </li>
                             <li>
-                                <RouterLink class="text-gray-500 transition hover:text-gray-500/75" to='/contact'> Contact </RouterLink>
+                                <RouterLink class="text-gray-500 transition hover:text-gray-500/75" :to="pageLink.CONTACT"> Contact </RouterLink>
                             </li>
                         </ul>
                     </nav>
