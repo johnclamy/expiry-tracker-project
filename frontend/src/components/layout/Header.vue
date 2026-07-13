@@ -3,8 +3,8 @@
 </script>
 
 <template>
-    <header class="bg-white">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <header class="bg-slate-50">
+        <div class="bg-white mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
             <div class="flex h-16 items-center justify-between">
                 <!-- logo section -->
                 <section class="md:flex md:items-center md:gap-12">
