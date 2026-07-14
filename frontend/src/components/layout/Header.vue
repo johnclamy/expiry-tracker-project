@@ -22,16 +22,7 @@
                                 <RouterLink class="text-gray-500 transition hover:text-gray-500/75" :to="pageLink.HOME"> Home </RouterLink>
                             </li>
                             <li>
-                                <RouterLink class="text-gray-500 transition hover:text-gray-500/75" :to="pageLink.CAREERS"> AI Careers </RouterLink>
-                            </li>
-                            <li>
-                                <RouterLink class="text-gray-500 transition hover:text-gray-500/75" :to="pageLink.JOBS"> New Jobs </RouterLink>
-                            </li>
-                            <li>
                                 <RouterLink class="text-gray-500 transition hover:text-gray-500/75" :to="pageLink.ABOUT"> About </RouterLink>
-                            </li>
-                            <li>
-                                <RouterLink class="text-gray-500 transition hover:text-gray-500/75" :to="pageLink.CONTACT"> Contact </RouterLink>
                             </li>
                         </ul>
                     </nav>
