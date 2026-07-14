@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+    import ItemInput from '../widgets/ItemInput.vue'
+</script>
 <template>
-    <h1>Welcome to the Home page.</h1>
+    <ItemInput />
 </template>
