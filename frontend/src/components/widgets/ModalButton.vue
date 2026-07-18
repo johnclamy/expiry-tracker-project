@@ -3,7 +3,7 @@
 <template>
 
     <!-- Large button to activate the modal -->
-    <header class="flex items-center justify-center mb-6 min-h-[200px]">
+    <div class="flex items-center justify-center mb-6 min-h-[200px]">
         <button class="
             w-full h-full 
             max-w-4xl max-h-[400px]
@@ -25,7 +25,7 @@
         >
             <span>add an item</span>
         </button>
-    </header>
+    </div>
 </template>
 
 <style></style>
