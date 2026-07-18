@@ -8,9 +8,9 @@
     <div class="bg-slate-50 text-slate-900 min-h-screen antialiased">
         <Header />
         <div class="mx-2">
-        <main class="bg-white mt-2 mb-8 mx-auto max-w-5xl px-2 py-2 sm:px-6 lg:px-8">
-            <RouterView />
-        </main>
+            <main class="bg-white mt-2 mb-8 mx-auto max-w-5xl px-2 py-2 sm:px-6 lg:px-8">
+                <RouterView />
+            </main>
         </div>
         <footer>
         <!-- credit for logo icon image -->
